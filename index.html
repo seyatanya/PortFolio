@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya's lio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Shreya Pk</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" style="display: flex; justify-content: center; align-items: center;background-color:  #eee7f4;padding: 80px;padding-bottom: 160px;">
+        <div style="text-align: center;">
+            <h1 style="font-size: 2.5em;">Hi There,</h1>
+            <h1 style="font-size: 3em;">I'm Shreya <span style="color:  #b24c4a;">Pk</span></h1>
+            <p style="font-weight: bold;">I am into <span style="color:  #5f0967;">Web Development</p></span>
+            <button onclick="redirectToAboutMe()" style="font-family: 'Poppins'; font-weight: bold; padding: 8px 40px; cursor: pointer; border: 2px solid #2d2b36; color: #d8d5db; background-color: #242026; border-radius: 40px; transition: background-color 0.3s, border-color 0.3s;">About Me</button><br><br>
+            <a href="https://twitter.com/JkShreya30857"><img src="twitter.png"></a>
+            <a href="https://www.instagram.com/shreya_pk.15/"><img src="instagram.png"></a>
+            <a href="https://github.com/seyatanya"><img src="github.png"></a>
+        </div>
+        <div style="margin-left: 100px; flex-shrink: 0;">
+            <img src="shreya.jpg" alt="Profile Picture" style="border-radius: 50%; width: 200px; height: 200px;">
+        </div>
+        
+    </section>
+    
+    <section id="about" style="background-color: #e4f7deb2; padding: 100px; display: flex; align-items: center; justify-content: center;">
+        <div style="max-width: 600px; text-align: center;">
+            <h1 style="font-size: 3em; margin-bottom: 20px; color: #333; text-shadow: 2px 2px 2px #ccc;">About Me</h1>
+            <p style="text-align: justify; font-size: larger; color: #555;">I am Shreya Pk, hailing from Adoni, Andhra Pradesh. Currently, I am pursuing a Bachelor of Technology degree in Computer Science from RV University in Bengaluru. Regarding my educational background, I completed my intermediate studies at Sri Abhidha College and my SSC from Kiddys Global School. I'm at Strong multitasking abilities and a self-motivated personality. Comfortable working both independently and collaboratively within teams to ensure on-time and accurate completion of office tasks.</p>
+        </div>
+    </section>
+    
+    
+    <section id="projects">
+        <div class="projects-content" style="background-color: #f1eedc; padding: 100px; display: flex; align-items: center; justify-content: center;">
+            <div style="max-width: 600px; text-align: center;">
+                <h2 style="font-size: 3em; margin-bottom: 20px; color: #333; text-shadow: 2px 2px 2px #ccc;">Projects</h2>
+                <div class="project-details">
+                    <h3 style="font-size: 2.4em; margin-bottom: 10px; color: #4b4949; text-shadow: 2px 2px 2px #ccc;">Mini IWD</h3>
+                    <p style="text-align: justify; font-size: larger; color: #555;">Students are encouraged to utilize HTML, CSS, and JavaScript for the creation of mini-projects. They have the flexibility to select any mentor from the faculty of the School of Computer Science and Engineering (CSE) to guide them in the development of these mini projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="skills" style="background-color: #f5f5f5; padding: 100px; display: flex; align-items: center; justify-content: center;">
+        <div class="skills-content" style="max-width: 600px; text-align: center;">
+            <h2 style="font-size: 3em; margin-bottom: 20px; color: #333; text-shadow: 2px 2px 2px #ccc;">Skills</h2>
+            <div class="skills-list" style="font-size: larger;">
+                <p style="margin: 7px 0; color: #555;">HTML</p>
+                <p style="margin: 7px 0; color: #555;">CSS</p>
+                <p style="margin: 7px 0; color: #555;">JavaScript</p>
+                <p style="margin: 7px 0; color: #555;">C Programming</p>
+                <p style="margin: 7px 0; color: #555;">Python</p>
+                <p style="margin: 7px 0; color: #555;">Data Analysis</p>
+                <p style="margin: 7px 0; color: #555;">Data Visualization</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="contact" style="background-color: #f7e7e7b2; padding: 80px; text-align: center;">
+        <div class="contact-content">
+            <h2 style="font-size: 3em; margin-bottom: 20px; color: #333; text-shadow: 2px 2px 2px #ccc;">Contact Us</h2>
+            <p>Feel free to reach out to me on social media. I would love to connect!</p>
+            <div class="social-media-icons">
+                <a id="call" href="tel:+916305602226" target="_blank" style="text-decoration: none;"><img src="mobile.png" alt="mobile" style="width: 30px; height: 30px;"><span style="color: black;">+91 6305602226</span></a>
+                <a id="gmail" href="mailto:shreyapk@gmail.com" target="_blank" style="text-decoration: none;"><img src="gmail.png" alt="Gmail" style="width: 30px; height: 30px;"><span style="color: black;">shreyapk@gmail.com</span></a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 Shreya Pk. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
